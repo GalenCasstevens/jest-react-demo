@@ -28,18 +28,21 @@ function SelectStarter({ initialStarterImg }) {
 				<div id="pokeballs">
 					<img
 						id="bulbasaur"
+						data-testid={'bulbasaur'}
 						className="pokeball"
 						src={require('../assets/pokeball.png')}
 						onClick={() => chooseBulbasaur()}
 					/>
 					<img
 						id="charmander"
+						data-testid={'charmander'}
 						className="pokeball"
 						src={require('../assets/pokeball.png')}
 						onClick={() => chooseCharmander()}
 					/>
 					<img
 						id="squirtle"
+						data-testid={'squirtle'}
 						className="pokeball"
 						src={require('../assets/pokeball.png')}
 						onClick={() => chooseSquirtle()}
